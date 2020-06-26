@@ -21,7 +21,20 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a description of your project.'
+        message: 'Provide a description of your project.(Required)',
+        validate: projectDescription => {
+            if (projectDescription) {
+                return true;
+            } else {
+                console.log('Please enter a description of your project!');
+            }
+        }
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Choose a license.',
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public 2.0', 'Apache 2.0', 'MIT', 'Unlicense']
     },
     {
         type: 'input',
@@ -36,13 +49,7 @@ const questions = [
     {
         type: 'input',
         name: 'credits',
-        message: 'List your collaborators, if any, with links to their GitHub profiles.'
-    },
-    {
-        type: 'list',
-        name: 'license',
-        message: 'Choose a license',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public 2.0', 'Apache 2.0', 'MIT', 'Unlicense']
+        message: 'List collaborators, third-party assets, or tutorials if used.'
     },
     {
         type: 'input',

@@ -1,5 +1,5 @@
-# README Generator
-  undefined
+# kailey morter
+  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
   ## Description:
   description
@@ -11,25 +11,24 @@
   * [License](#license)
   * [Tests](#tests)
   * [Questions](#questions)
-  
 
   ## Installation
-  installtion
+  installation
 
   ## Usage:
-  instructions
+  examples
 
   ## Credits:
-  none
+  non
 
   ## License:
   GNU AGPLv3
 
   ## Contributing:
-  adf
+  guidelines
 
   ## Tests:
-  adsf
+  tests
 
   ## Questions:
   GitHub Username: [kaileymorter] (http://github.com/kaileymorter)
