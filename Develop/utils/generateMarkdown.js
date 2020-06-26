@@ -24,15 +24,6 @@ function generateMarkdown(data) {
   ## Description:
   ${data.description}
 
-  ## Table of Contents:
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [License](#license)
-  * [Tests](#tests)
-  * [Questions](#questions)
-  
-
   ## Installation
   ${data.installation}
 
