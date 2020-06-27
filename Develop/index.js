@@ -54,7 +54,7 @@ const questions = [
     {
         type: 'input',
         name: 'contribution',
-        message: 'Add guidlines for how you want other developers to contribute to your project.',
+        message: 'Add guidelines for how you want other developers to contribute to your project.',
     },
     {
         type: 'input',
