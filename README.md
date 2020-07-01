@@ -37,6 +37,6 @@
   For examples on how to run this application, please refer to the Usage section of this README.
 
   ## Questions:
-  [My Github Account](github.com/kaileymorter)
+  [My Github Account](https://github.com/kaileymorter))
 
   If you have additional questions about this project, please reach me at: k_morter@outlook.com
